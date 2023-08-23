@@ -76,6 +76,8 @@ input {
   max-height: 250px;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top: 10px; /* Espacement en haut */
+  margin-top: 10px;
   line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
 }

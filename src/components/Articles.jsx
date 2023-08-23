@@ -3,7 +3,7 @@ import React from 'react';
 const Articles = ({ meals }) => {
   return (
     <div className="recepies-container">
-      {meals.map((meal) => (
+      {meals.slice(0, 24).map((meal) => (
         <div className="meal-card">
           <h2>{meal.strMeal}</h2>
           <p>Origin : {meal.strArea}</p>

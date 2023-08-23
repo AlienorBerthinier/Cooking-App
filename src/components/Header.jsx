@@ -12,7 +12,7 @@ const Header = ({ onSearchSubmit }) => {
 
   return (
     <div className="header">
-      <h1>React Cook</h1>
+      <h1>React Cooking App</h1>
       <Input
         className="input"
         icon="search"
