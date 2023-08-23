@@ -11,8 +11,12 @@
 		"lint:fix": "eslint src/**/*.{js,jsx,ts,tsx} --fix"
 	},
 	"dependencies": {
+		"@mui/material": "^5.14.5",
+		"axios": "^1.4.0",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"semantic-ui-css": "^2.5.0",
+		"semantic-ui-react": "^2.1.4"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.28",
